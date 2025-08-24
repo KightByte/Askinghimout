@@ -1,0 +1,28 @@
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.image-container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.note-image {
+    max-width: 500px; /* Adjust to your image size */
+    height: auto;
+    cursor: pointer;
+}
+
+/* Small ring image in the bottom left */
+.ring-image {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+}
