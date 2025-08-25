@@ -1,14 +1,23 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Message</title>
-    <link rel="stylesheet" href="message.css"> <!-- Link to your custom CSS -->
-</head>
-<body>
+/* Ensure the body takes up the full viewport */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
 
-    <p class="center-text">Sample</p>
+/* Full-page background with back.png */
+body {
+    background: url('back.png') no-repeat center center fixed;
+    background-size: cover; /* Ensures the background image covers the whole page */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+}
 
-</body>
-</html>
+/* Style for the centered text */
+.center-text {
+    font-size: 2rem; /* Medium-sized text */
+    color: white;    /* White text color for contrast */
+    text-align: center;
+}
