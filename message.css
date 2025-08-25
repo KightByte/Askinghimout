@@ -1,32 +1,19 @@
-/* Basic styling for the page */
+/* Full-page background with back.png */
 body {
     margin: 0;
     padding: 0;
-    font-family: Georgia, serif;
+    height: 100vh;
+    background: url('back.png') no-repeat center center fixed;
+    background-size: cover; /* Ensures the background image covers the whole page */
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    background: url('back.png') no-repeat center center fixed;
-    background-size: cover; /* Background image stretched */
+    font-family: Arial, sans-serif;
 }
 
+/* Style for the centered text */
 .center-text {
-    font-size: 2rem;
+    font-size: 2rem; /* Medium-sized text */
+    color: white;    /* White text color for contrast */
     text-align: center;
-    color: white;
-}
-
-/* Button in the bottom-left corner */
-#messageButton {
-    position: fixed;
-    bottom: 20px;
-    left: 20px;
-    display: inline-block;
-    cursor: pointer;
-}
-
-.message-image {
-    width: 50px; /* Adjust the size of the image */
-    height: 50px; /* Adjust the size of the image */
 }
