@@ -17,6 +17,6 @@ body {
 /* Style for the centered text */
 .center-text {
     font-size: 2rem; /* Medium-sized text */
-    color: white;    /* White text color for contrast */
+    color: black;    /* White text color for contrast */
     text-align: center;
 }
