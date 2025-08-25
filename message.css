@@ -1,19 +1,32 @@
-/* Set the background image to be stretched and centered */
+/* Basic styling for the page */
 body {
     margin: 0;
     padding: 0;
-    background: url('back.png') no-repeat center center fixed;
-    background-size: cover; /* Ensures the background covers the whole page */
     font-family: Georgia, serif;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh; /* Full viewport height */
+    height: 100vh;
+    background: url('back.png') no-repeat center center fixed;
+    background-size: cover; /* Background image stretched */
 }
 
-/* Center the text and style it */
 .center-text {
     font-size: 2rem;
     text-align: center;
-    color: white; /* White text color to stand out on the background */
+    color: white;
+}
+
+/* Button in the bottom-left corner */
+#messageButton {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.message-image {
+    width: 50px; /* Adjust the size of the image */
+    height: 50px; /* Adjust the size of the image */
 }
