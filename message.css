@@ -3,15 +3,16 @@ html, body {
     height: 100%;
     margin: 0;
     padding: 0;
+    background-color: white; /* White space fills outside the image */
 }
 
 /* Background setup */
 body {
-    background: url('kiwipaper.jpg') no-repeat center top; /* Show full image as-is */
-    background-size: auto; /* Keep natural 1400x900 size */
+    background: url('kiwipaper.jpg') no-repeat center center fixed;
+    background-size: contain; /* Keep the full 1400x900 photo in frame */
     display: flex;
-    justify-content: flex-end; /* Push content to the right */
-    align-items: center; /* Vertically center content */
+    justify-content: flex-end; /* Push text container right */
+    align-items: center;       /* Vertically center text */
     font-family: 'Quicksand', sans-serif;
     color: #000;
 }
@@ -27,10 +28,10 @@ body {
 /* Text container */
 .text-container {
     max-width: 800px;
-    margin-right: 200px; /* Always 200px from right edge */
+    margin-right: 200px; /* Push text in from the right */
     padding: 20px;
     text-align: center;
-    background: rgba(255, 255, 255, 0.7); /* Optional: for readability */
+    background: rgba(255, 255, 255, 0.7); /* Optional readability layer */
     border-radius: 10px;
 }
 
