@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title> <3 </title>
+  <title><3</title>
   
   <!-- Google Font: Quicksand -->
   <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;700&display=swap" rel="stylesheet">
@@ -13,15 +13,22 @@
       height: 100%;
       margin: 0;
       padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: white; /* Fills space outside the image */
     }
 
-    body {
-      font-family: 'Quicksand', sans-serif;
-      background: url('kiwipaper.jpg') no-repeat center center fixed;
-      background-size: cover; /* Stretches background to cover screen */
+    /* Wrapper that holds the background image */
+    .background-wrapper {
+      width: 100%;
+      height: 100%;
+      background: url('kiwipaper.jpg') no-repeat center center;
+      background-size: contain; /* Show full photo in frame */
       display: flex;
-      justify-content: flex-end; /* Push content to the right */
-      align-items: center; /* Vertically center */
+      justify-content: flex-end; /* Push text container to the right side of the image */
+      align-items: center;       /* Vertically center text */
+      font-family: 'Quicksand', sans-serif;
       color: #000;
     }
 
@@ -34,10 +41,10 @@
 
     .text-container {
       max-width: 800px;
-      margin-right: 200px; /* Always 200px from the right edge */
+      margin-right: 200px; /* 200px inside from the right edge of the image */
       padding: 20px;
-      text-align: center; /* Keeps text centered inside */
-      background: rgba(255, 255, 255, 0.7); /* Semi-transparent for readability */
+      text-align: center;
+      background: rgba(255, 255, 255, 0.7);
       border-radius: 10px;
     }
 
@@ -49,18 +56,20 @@
 </head>
 <body>
 
-  <div class="text-container">
-    <div class="update-header">[LAST UPDATED 26.08.25 10:21PM]</div>
+  <div class="background-wrapper">
+    <div class="text-container">
+      <div class="update-header">[LAST UPDATED 26.08.25 10:21PM]</div>
 
-    <p class="center-text">
-      Good morning princess! I hope you had sweet dreams last night. Unfortunately I am, same as you, Very fuckin tired 😭. But alas the moment I laid my head down on my pillow to pass out I remembered that my baby deserves something every night so that he knows how loved he is. So here I am again with my corny words to make you happy for a few minutes today.
-      <br><br>
-      Ive missed you so bad baby, Its only been a few short hours since we were last on call but it again, feels like forever. At this point I tell you that enough to make you hate that fact though heh. Its just the truth though. Even after a run to the gym and the store, so much going on so much to do. I cant keep my mind from wondering off imagining that you were with me instead. You next to me helping me pick out things that you want from the isles of a supermarket. You at the gym doing your best to spot me for my deadlift, making me do some insane amounts of cardio. Every aspect of my life would be better if you were here in my arms. You call yourself chopped all the time but I really cant see it, you light up the room everytime our eyes meet. Even as we watched our movie I couldnt help but look over at you doing your cute little kitty paws. You were just so cute. Please never think of yourself as something like that. You are the most stunning man to roam the earth. If I had the energy I would re-create that one 1000+ word rai comment. God I could yap forever about my desire to be with you. But I have to reserve some of that loving for when Im awake too hehe.
-      <br><br>
-      Im going to go hit the hay now sweetie so hopefully we wake up not too far apart from eachother. I cant wait to hear wakey wakey its 7am LMFAOO. But fr baby, I cant wait to see you in the morning, goodnight ❤️
-      <br><br>
-      (P.S lets my fn tmr &lt;3)
-    </p>
+      <p class="center-text">
+        Good morning princess! I hope you had sweet dreams last night. Unfortunately I am, same as you, Very fuckin tired 😭. But alas the moment I laid my head down on my pillow to pass out I remembered that my baby deserves something every night so that he knows how loved he is. So here I am again with my corny words to make you happy for a few minutes today.
+        <br><br>
+        Ive missed you so bad baby, Its only been a few short hours since we were last on call but it again, feels like forever. At this point I tell you that enough to make you hate that fact though heh. Its just the truth though. Even after a run to the gym and the store, so much going on so much to do. I cant keep my mind from wondering off imagining that you were with me instead. You next to me helping me pick out things that you want from the isles of a supermarket. You at the gym doing your best to spot me for my deadlift, making me do some insane amounts of cardio. Every aspect of my life would be better if you were here in my arms. You call yourself chopped all the time but I really cant see it, you light up the room everytime our eyes meet. Even as we watched our movie I couldnt help but look over at you doing your cute little kitty paws. You were just so cute. Please never think of yourself as something like that. You are the most stunning man to roam the earth. If I had the energy I would re-create that one 1000+ word rai comment. God I could yap forever about my desire to be with you. But I have to reserve some of that loving for when Im awake too hehe.
+        <br><br>
+        Im going to go hit the hay now sweetie so hopefully we wake up not too far apart from eachother. I cant wait to hear wakey wakey its 7am LMFAOO. But fr baby, I cant wait to see you in the morning, goodnight ❤️
+        <br><br>
+        (P.S lets my fn tmr &lt;3)
+      </p>
+    </div>
   </div>
 
 </body>
