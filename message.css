@@ -30,7 +30,7 @@ html, body {
 /* Text container inside the image */
 .text-container {
     max-width: 800px;
-    margin-right: 50px; /* distance from right edge of image */
+    margin-right: 2000px; /* distance from right edge of image */
     padding: 20px;
     text-align: center;
     background: rgba(255, 255, 255, 0.7); /* semi-transparent for readability */
