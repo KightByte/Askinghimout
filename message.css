@@ -3,7 +3,7 @@ html, body {
     height: 100%;
     margin: 0;
     padding: 0;
-    background-color: white; /* White space fills sides if screen wider than image */
+    background-color: #c4c4c4; /* Updated to match uploaded image */
     font-family: 'Quicksand', sans-serif;
 }
 
@@ -30,7 +30,7 @@ html, body {
 /* Text container inside the image */
 .text-container {
     max-width: 800px;
-    margin-right: 2000px; /* distance from right edge of image */
+    margin-right: 50px; /* adjusted to reasonable spacing from edge */
     padding: 20px;
     text-align: center;
     background: rgba(255, 255, 255, 0.7); /* semi-transparent for readability */
