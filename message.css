@@ -1,33 +1,43 @@
-/* Full-page background with back.png */
+/* Full height page */
 html, body {
     height: 100%;
     margin: 0;
     padding: 0;
 }
 
+/* Background setup */
 body {
-    background: url('back.png') no-repeat center center fixed;
-    background-size: cover; /* Ensures the background image covers the whole page */
+    background: url('kiwipaper.jpg') no-repeat center center fixed;
+    background-size: cover; /* Stretch background to fit screen */
     display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: Arial, sans-serif;
-    color: black; /* Text color */
+    justify-content: flex-end; /* Push content to the right */
+    align-items: center; /* Vertically center content */
+    font-family: 'Quicksand', sans-serif;
+    color: #000;
 }
 
-/* Container to apply margins and padding */
+/* Header text (optional: update timestamp) */
+.update-header {
+    font-size: 0.7em;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #555;
+}
+
+/* Main text container */
 .text-container {
-    width: 100%;
-    max-width: calc(100% - 400px); /* Ensures 200px from each side */
+    max-width: 800px;
+    margin-right: 200px; /* Always 200px from right edge */
     padding: 20px;
-    text-align: justify; /* Makes the text more readable */
+    text-align: center; /* Center text inside */
+    background: rgba(255, 255, 255, 0.7); /* Semi-transparent white for readability */
+    border-radius: 10px; /* Rounded edges */
 }
 
-/* Style for the centered text */
+/* Message text */
 .center-text {
-    font-size: 22px; /* Medium-sized text */
-    line-height: 1.5; /* Spacing between lines */
+    font-size: 1em;
+    line-height: 1.6;
     margin: 0;
     padding: 0;
-    color: black;
 }
