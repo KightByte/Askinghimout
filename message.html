@@ -13,23 +13,21 @@
       height: 100%;
       margin: 0;
       padding: 0;
-      background: white; /* Fills space outside the image */
+      background: white; /* fills space on sides */
       font-family: 'Quicksand', sans-serif;
-      overflow: auto; /* Allows scrolling if image is bigger than viewport */
     }
 
-    /* Wrapper holding the doubled image */
+    /* Wrapper holding the background image */
     .background-wrapper {
-      width: 2800px;  /* double original width */
-      height: 1800px; /* double original height */
-      background: url('kiwipaper.jpg') no-repeat top left;
-      background-size: 2800px 1800px; /* scale background to doubled size */
+      height: 100vh; /* fill viewport height */
+      width: 100%;
+      background: url('kiwipaper.jpg') no-repeat center top;
+      background-size: auto 100%; /* full height, auto width to keep aspect ratio */
       display: flex;
-      justify-content: flex-end; /* Push text container to the right side */
-      align-items: center;       /* Vertically center text inside image */
-      color: #000;
+      justify-content: flex-end; /* push text to right inside the image */
+      align-items: center;       /* vertically center text */
       position: relative;
-      margin: 0 auto; /* Center wrapper horizontally in viewport */
+      color: #000;
     }
 
     .update-header {
@@ -41,11 +39,11 @@
 
     .text-container {
       max-width: 800px;
-      margin-right: 200px; /* 200px from the right edge of the image */
       padding: 20px;
       text-align: center;
       background: rgba(255, 255, 255, 0.7);
       border-radius: 10px;
+      margin-right: 50px; /* space from right edge of image */
     }
 
     .center-text {
