@@ -7,8 +7,8 @@ html, body {
 
 /* Background setup */
 body {
-    background: url('kiwipaper.jpg') no-repeat center center fixed;
-    background-size: cover; /* Stretch background to fit screen */
+    background: url('kiwipaper.jpg') no-repeat center top; /* Show full image as-is */
+    background-size: auto; /* Keep natural 1400x900 size */
     display: flex;
     justify-content: flex-end; /* Push content to the right */
     align-items: center; /* Vertically center content */
@@ -16,7 +16,7 @@ body {
     color: #000;
 }
 
-/* Header text (optional: update timestamp) */
+/* Header text */
 .update-header {
     font-size: 0.7em;
     font-weight: bold;
@@ -24,17 +24,17 @@ body {
     color: #555;
 }
 
-/* Main text container */
+/* Text container */
 .text-container {
     max-width: 800px;
     margin-right: 200px; /* Always 200px from right edge */
     padding: 20px;
-    text-align: center; /* Center text inside */
-    background: rgba(255, 255, 255, 0.7); /* Semi-transparent white for readability */
-    border-radius: 10px; /* Rounded edges */
+    text-align: center;
+    background: rgba(255, 255, 255, 0.7); /* Optional: for readability */
+    border-radius: 10px;
 }
 
-/* Message text */
+/* Paragraph text */
 .center-text {
     font-size: 1em;
     line-height: 1.6;
